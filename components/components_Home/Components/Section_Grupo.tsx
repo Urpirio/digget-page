@@ -10,7 +10,7 @@ export default function Section_Grupo() {
           <span className="text-blue-600">iniciativa</span>
         </h2>
       </div>
-      <div className="flex flex-col justify-between p-3 lg:p-5 border border-gray-200/40 bg-white/20  w-[70%] min-w-80 rounded-3xl shadow-2xl backdrop-blur-2xl">
+      <div className="flex flex-col justify-between p-3 lg:p-5 border-0  bg-white/20  w-[70%] min-w-80 rounded-3xl shadow-2xl backdrop-blur-2xl">
         <Image className="w-[100%]  rounded-2xl " src={ImagenGrupo} alt="" />
       </div>
     </section>
