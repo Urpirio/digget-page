@@ -5,18 +5,18 @@ import { IoWarningOutline } from "react-icons/io5";
 
 export default function Section_Funcionalidades() {
   return (
-    <section className="flex flex-col items-center justify-center py-10 bg-white px-5 md:px-30">
-      <div className="flex flex-col gap-5 w-1/2 min-w-90 pb-5">
+    <section className="flex flex-col items-center justify-center py-10 bg-white  lg:px-30 px-5">
+      <div className="flex flex-col gap-5 max-w-150 min-w-90 pb-5">
         <h2 className="text-4xl font-bold text-center">
           Funcionalidades <span className="text-blue-500"> Principales</span>
         </h2>
-        <p className="text-center text-gray-600 text-lg font-light">
+        <p className="text-center text-gray-600 md:text-lg font-light">
           Descubre cómo DIGGE-App revoluciona la experiencia vial en República
           Dominicana con herramientas innovadoras y fáciles de usar.
         </p>
       </div>
-      <div className="w-full flex justify-between py-10 flex-row-reverse">
-        <article className="flex flex-col w-1/5 justify-center gap-2 hover:scale-105 transition-transform duration-300">
+      <div className="w-full flex flex-wrap gap-5 justify-center md:justify-between py-10 flex-row-reverse">
+        <article className="flex flex-col w-1/5 min-w-80 justify-center gap-2 hover:scale-105 transition-transform duration-300">
           <div className="flex flex-col items-center">
             <div className="border-2 rounded-2xl  bg-red-50 shadow-2xl border-red-200 p-4 flex items-center justify-center h-15 w-15 mb-4">
               <IoWarningOutline className="text-4xl text-red-600" />
@@ -32,7 +32,7 @@ export default function Section_Funcionalidades() {
           </p>
         </article>
 
-        <article className="flex flex-col w-1/5 justify-center gap-2 hover:scale-105 transition-transform duration-300">
+        <article className="flex flex-col w-1/5 min-w-80 justify-center gap-2 hover:scale-105 transition-transform duration-300">
           <div className="flex flex-col items-center">
             <div className="border-2 rounded-2xl  bg-green-50 shadow-2xl border-green-200 p-4 flex items-center justify-center h-15 w-15 mb-4">
               <FiCreditCard className="text-4xl text-green-500" />
@@ -47,7 +47,7 @@ export default function Section_Funcionalidades() {
           </p>
         </article>
 
-        <article className="flex flex-col w-1/5 justify-center gap-2 hover:scale-105 transition-transform duration-300">
+        <article className="flex flex-col w-1/5 min-w-80 justify-center gap-2 hover:scale-105 transition-transform duration-300">
           <div className="flex flex-col items-center">
             <div className="border-2 rounded-2xl  bg-blue-100 shadow-2xl border-blue-200 p-4 flex items-center justify-center h-15 w-15 mb-4">
               <LuBrainCircuit className="text-3xl text-blue-500" />
@@ -61,7 +61,7 @@ export default function Section_Funcionalidades() {
           </p>
         </article>
 
-        <article className="flex flex-col w-1/5 justify-center gap-2 hover:scale-105 transition-transform duration-300">
+        <article className="flex flex-col w-1/5 min-w-80 justify-center gap-2 hover:scale-105 transition-transform duration-300">
           <div className="flex flex-col items-center">
             <div className="border-2 rounded-2xl  bg-amber-50 shadow-2xl border-amber-200 p-4 flex items-center justify-center h-15 w-15 mb-4">
               <FaMapMarkedAlt className="text-4xl text-amber-500" />
