@@ -2,7 +2,7 @@ import Card_Beneficios from "../SubComponents/Card_Beneficios";
 
 export default function Section_BeneficiosCiudadano() {
   return (
-    <section className="w-full flex flex-col justify-center items-center py-10 bg-white px-5 md:px-30">
+    <section className="w-full flex flex-col justify-center items-center py-30 bg-white px-5 md:px-30" id="Beneficios">
       <div className="flex flex-col gap-5  max-w-150 min-w-90">
         <h2 className="text-4xl font-bold text-center ">
           Beneficios para el <span className="text-green-500">Ciudadano</span>
