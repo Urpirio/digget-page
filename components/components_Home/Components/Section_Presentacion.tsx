@@ -4,9 +4,9 @@ import { CiSaveDown2 } from "react-icons/ci";
 
 export default function Section_Presentacion() {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center pb-10 pt-30 px-30  bg-white">
-      <div className="flex flex-col gap-4 w-full md:w-1/2">
-        <h2 className="text-7xl font-bold">
+    <section className="flex  flex-wrap  items-center justify-center pb-10 pt-38 md:pt-30 px-5 lg:px-30 gap-5 md:gap-0  bg-white">
+      <div className="flex flex-col gap-4  w-1/2 min-w-80">
+        <h2 className="xl:text-7xl text-4xl font-bold">
           DIGGE-App 2025:{" "}
           <span className="text-blue-500">Gestión e Interacción </span>
           <span className="text-green-500">Vial Ciudadana</span>
@@ -23,7 +23,7 @@ export default function Section_Presentacion() {
           </button>
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex justify-end mt-8 md:mt-0">
+      <div className=" w-1/2 min-w-80 flex md:justify-end  justify-center ">
         <Image className="w-[60%] h-[60%]" src={AppReferencia} alt="" />
       </div>
     </section>
