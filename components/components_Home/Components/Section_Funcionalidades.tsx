@@ -5,7 +5,7 @@ import { IoWarningOutline } from "react-icons/io5";
 
 export default function Section_Funcionalidades() {
   return (
-    <section className="flex flex-col items-center justify-center py-10 bg-white  lg:px-20 px-5">
+    <section className="flex flex-col items-center justify-center py-10 pt-30 bg-white  lg:px-20 px-5" id="Funcionalidades">
       <div className="flex flex-col gap-5 max-w-150 min-w-90 pb-5">
         <h2 className="text-4xl font-bold text-center">
           Funcionalidades <span className="text-blue-500"> Principales</span>
