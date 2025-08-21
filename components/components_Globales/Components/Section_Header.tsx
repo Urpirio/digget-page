@@ -15,7 +15,7 @@ export default function Section_Header(Tools: {
   const { StatusMenu, setStatusMenu } = Tools;
 
   return (
-    <header className="w-full py-10 fixed  justify-center flex flex-col items-center ">
+    <header className="w-full py-5 fixed  justify-center flex flex-col items-center ">
       <motion.section
         animate={{ translateY: 120 }}
         className={`flex -translate-y-30 w-[90%] ${
