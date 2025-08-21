@@ -19,8 +19,8 @@ export default function Section_Header(Tools: {
       <motion.section
         animate={{ translateY: 120 }}
         className={`flex -translate-y-30 w-[90%] ${
-          StatusMenu ? "rounded-t-2xl  border-t" : "rounded-2xl  border"
-        }  items-center b bg-white/80  backdrop-blur-2xl border-gray-300  py-5 px-5  `}
+          StatusMenu ? "rounded-t-2xl  border-t border-l border-r" : "rounded-2xl  border"
+        }  items-center b bg-white/90  backdrop-blur-2xl border-gray-300  py-5 px-5  `}
       >
         <div className="flex items-center w-1/4  flex-grow">
           <Image className="h-10 w-10" src={LogoPage} alt="" />
@@ -75,7 +75,7 @@ export default function Section_Header(Tools: {
       {StatusMenu && (
         <motion.section
           animate={{ height: 260, opacity: 1 }}
-          className="w-[90%] bg-white/80 rounded-b-2xl opacity-0 px-3  backdrop-blur-2xl h-0 border-b border-l border-r border-gray-300 flex flex-col"
+          className="w-[90%] bg-white/90 rounded-b-2xl opacity-0 px-3  backdrop-blur-2xl h-0 border-b border-l border-r border-gray-300 flex flex-col"
         >
           <Link
             href={""}
