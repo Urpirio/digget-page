@@ -7,6 +7,7 @@ import Section_Header from "../../components/components_Globales/Components/Sect
 import Section_Footer from "../../components/components_Globales/Components/Section_Footer";
 import { Albert_Sans } from "next/font/google";
 import { useHeader } from "../../components/components_Home/Hooks/useHeader";
+import Section_Grupo from "../../components/components_Home/Components/Section_Grupo";
 
 const albert_Sans = Albert_Sans({
   subsets: ["latin-ext"],
@@ -26,6 +27,7 @@ export default function Home() {
         <Section_Funcionalidades />
         <Section_Funcionalidades2 />
         <Section_BeneficiosCiudadano />
+        <Section_Grupo/>
       </main>
       <Section_Footer />
     </body>
