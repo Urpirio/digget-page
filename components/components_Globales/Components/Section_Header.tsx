@@ -52,6 +52,14 @@ export default function Section_Header(Tools: {
           >
             Equipo
           </Link>
+          <Link
+            href={
+              " https://www.instagram.com/diggeapp?igsh=MThrMWVwY3JjYzR0MA%3D%3D&utm_source=qr"
+            }
+            className="text-gray-700 hover:text-blue-500 transition-colors duration-300"
+          >
+            Instagram-Digge-app
+          </Link>
         </nav>
         <div className="md:flex hidden items-center w-1/4 flex-grow justify-end gap-4">
           <Link
@@ -110,6 +118,14 @@ export default function Section_Header(Tools: {
             className="text-gray-700 text-center py-3 text-lg hover:text-blue-500 transition-colors duration-300"
           >
             <span>Equipo</span>
+          </Link>
+          <Link
+            className="text-gray-700 text-center py-3 text-lg hover:text-blue-500 transition-colors duration-300"
+            href={
+              " https://www.instagram.com/diggeapp?igsh=MThrMWVwY3JjYzR0MA%3D%3D&utm_source=qr"
+            }
+          >
+            Instagram-Digge-app
           </Link>
           <Link
             onClick={() => setStatusMenu(false)}
